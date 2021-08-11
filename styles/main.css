@@ -1,0 +1,170 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper
+{
+	margin: 70px auto;
+	height: 500px;
+	width: 350px;
+	border: 3px solid #000000;
+	border-radius: 15px;
+}
+
+.m_name
+{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #000000;
+	text-align: center;
+	padding-top: 14px;
+}
+
+.m_name > span
+{
+	font-family: "Nunito-SemiBold";
+}
+
+.add_task_place
+{
+	height: 60px;
+	width: 100%-10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.input_p
+{
+	height: 20px;
+	width: 200px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding-left: 5px;
+	outline: none;
+	font-family: "Nunito-Bold";
+}
+
+.m_button
+{
+	height: 23px;
+	width: 100px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 1px;
+	font-family: "Nunito-Bold";
+	outline: none;
+	cursor: pointer;
+}
+
+.m_button:hover
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.l_button
+{
+	height: 23px;
+	width: 100px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 5px;
+	font-family: "Nunito-Bold";
+	outline: none;
+	cursor: pointer;
+}
+
+.l_button:hover
+{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.tasks
+{
+	height: 80px;
+	width: 100%-10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.tasks > div:nth-child(1)
+{
+	height: 100%;
+	width: 240px;
+}
+
+.tasks > div:nth-child(2)
+{
+	height: 100%;
+	width: 90px;
+}
+
+.tasks > div > span
+{
+	font-size: 10pt;
+	font-family: "Nunito-SemiBold";
+}
+
+.s_button
+{
+	height: 23px;
+	width: 80px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 30px;
+	font-family: "Nunito-Bold";
+	outline: none;
+	cursor: pointer;
+}
+
+.s_button:hover
+{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.tasks > div:nth-child(1),
+.tasks > div:nth-child(2)
+{
+	float: left;
+}
+
+.circle
+{
+	width: 60px;
+	height: 60px;
+	border: 3px solid red;
+	border-radius: 40px;
+}
+
+
+
+
+
+
+
+@font-face
+{
+	src:url(../fonts/Nunito-SemiBold.ttf);
+	font-family: "Nunito-SemiBold";
+}
+
+@font-face
+{
+	src:url(../fonts/Nunito-Bold.ttf);
+	font-family: "Nunito-Bold";
+}
