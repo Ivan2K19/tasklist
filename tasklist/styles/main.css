@@ -1,0 +1,219 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper
+{
+	margin: 70px auto;
+	height: 500px;
+	width: 350px;
+	border: 3px solid #000000;
+	border-radius: 15px;
+}
+
+.m_name
+{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #000000;
+	text-align: center;
+	padding-top: 14px;
+}
+
+.m_name > span
+{
+	font-family: "Nunito-SemiBold";
+}
+
+.add_task_place
+{
+	height: 60px;
+	width: 100%-10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.input_p
+{
+	height: 20px;
+	width: 200px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding-left: 5px;
+	outline: none;
+	font-family: "Nunito-Bold";
+}
+
+.m_button
+{
+	height: 23px;
+	width: 100px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 1px;
+	font-family: "Nunito-Bold";
+	outline: none;
+	cursor: pointer;
+}
+
+.m_button:hover
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.l_button
+{
+	height: 23px;
+	width: 100px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 5px;
+	font-family: "Nunito-Bold";
+	outline: none;
+	cursor: pointer;
+}
+
+.l_button:hover
+{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.tasks
+{
+	height: 80px;
+	width: 100%-10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.tasks > div:nth-child(1)
+{
+	height: 100%;
+	width: 240px;
+}
+
+.tasks > div:nth-child(2)
+{
+	height: 100%;
+	width: 90px;
+}
+
+.tasks > div > span
+{
+	font-size: 10pt;
+	font-family: "Nunito-SemiBold";
+}
+
+.s_button
+{
+	height: 23px;
+	width: 80px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 30px;
+	margin-right: 5px;
+	font-family: "Nunito-Bold";
+	outline: none;
+}
+
+.s_button:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.tasks > div > form > a
+{
+	text-decoration: none;
+}
+
+.auth
+{
+	width: 80px;
+	height: 23px;
+	background-color: #00ff00;
+	border: 5px solid #4cc33f;
+	border-radius: 15px;
+	font-family: "Nunito-Bold";
+	font-size: 16pt;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 3px;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+.auth:hover
+{
+	cursor: pointer;
+	background-color: #00ff00;
+	border: 5px solid #00ff00;
+}
+
+
+
+
+.tasks > div:nth-child(1)
+{
+	float: left;
+}
+
+.tasks > div:nth-child(2)
+{
+	float: right;
+	margin-right: 10px;
+}
+
+.tasks > div:nth-child(1) > form > a
+{
+	float: left;
+}
+
+.circlef
+{
+	width: 60px;
+	height: 60px;
+	border: 3px solid red;
+	border-radius: 40px;
+}
+
+.circlet
+{
+	width: 60px;
+	height: 60px;
+	border: 3px solid green;
+	border-radius: 40px;
+}
+
+
+
+
+
+@font-face
+{
+	src:url(../fonts/Nunito-SemiBold.ttf);
+	font-family: "Nunito-SemiBold";
+}
+
+@font-face
+{
+	src:url(../fonts/Nunito-Bold.ttf);
+	font-family: "Nunito-Bold";
+}
